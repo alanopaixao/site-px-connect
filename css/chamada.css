@@ -1,13 +1,11 @@
 .chamada {
     display: flex;
-
     justify-content: space-between;
     align-items: center;
 }
 
 .chamada__container {
-
-    height: calc(100vh - 100px);
+    height: 80vh;
     width: 550px;
     display: flex;
     align-items: center;
@@ -22,6 +20,7 @@
     align-items: flex-end;
     justify-content: center;
     flex-grow: 1;
+    margin-right: 50px;
 }
 
 
@@ -58,7 +57,20 @@
     font-size: 0.9rem;
 }
 
-.chamada__container--botao a p:last-child{
+.chamada__container--botao a p:last-child {
     font-weight: 900;
     font-size: 1rem;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .chamada__container--texto p {
+        font-size: 1.1rem;
+    }
+
+    .chamada__container--texto h1 {
+        font-size: 2rem;
+    }
+
+}
+

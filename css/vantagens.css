@@ -1,12 +1,30 @@
 
 .vantagens__conheca{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.vantagens__texto{
+    text-align: end;
+    margin-top: 80px;
+}
+
+.vantagens__texto h1{
+   font-size: 3rem;
+}
+
+.vantagens__texto p:nth-child(1){
+    font-size: 1rem;
+}
+
+.vantagens__texto p:nth-child(2){
+    font-size: 5rem;
 }
 
 .vantagens__conheca__itens{
     height: 300px;
     width: 300px;
     box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.2);
+    margin: 50px 10px;
 }

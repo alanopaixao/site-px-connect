@@ -1,38 +1,128 @@
-.nossos-planos{
+.nossos-planos {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.nossos-planos__planos{
-    background-color: var(--azul-bebe);
+
+.nossos-planos__card {
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    height: 400px;
-    width: 300px;
-    border-radius: 10px;
-    margin: 100px 50px;
+    height: 500px;
+    width: 270px;
+    border-radius: 5px;
+    margin: 100px 10px;
+    box-shadow: 0px 0px 2px 1px rgb(255, 174, 0);
+    transition: .5s;
 }
 
-.nossos-planos__planos__conteudo{
-    height: 80%;
+.nossos-planos__card:hover{
+    background-image: linear-gradient(gold, #fff, #fff);
+    box-shadow: 0px 0px 10px 1px rgb(255, 174, 0);
+    transition: .4s;
 }
 
+.nossos-planos__card__conteudo {
+    height: 100%;
+    margin: 20px;
+}
 
-.nossos-planos__planos__botao{
+.nossos-planos__card__conteudo--valor p:nth-child(1) {
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 20px 0;
+    font-size: 1.5rem;
+}
+
+.nossos-planos__card__conteudo--valor p:nth-child(2) {
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.nossos-planos__card__conteudo--mega {
+    border-bottom: 1px solid goldenrod;
+    padding-bottom: 10px;
+
+}
+
+.nossos-planos__card__conteudo--mega p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 5px;
+}
+
+.nossos-planos__card__conteudo--mega h2 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+.nossos-planos__card__conteudo--instalacao {
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 40px 0;
+}
+
+.nossos-planos__card__conteudo--instalacao p:nth-child(1) {
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 20px 0;
+    font-size: 1.3rem;
+    margin: 20px 0;
+}
+
+.nossos-planos__card__conteudo--instalacao p:nth-child(2) {
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.nossos-planos__card__conteudo--valor {
     display: flex;
     justify-content: center;
-    align-content: center;
-    border-radius: 25px;
+    margin: none;
+}
+
+.nossos-planos__card__conteudo--valor p:nth-child(odd) {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+
+} 
+.nossos-planos__card__conteudo--valor p:nth-child(2) {
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+
+.nossos-planos__card__conteudo--botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0 5px;
 
 }
 
-.nossos-planos__planos__botao a{
-    background-image: linear-gradient(#fff, #eee);
-    padding: 15px 25px ;
-    border-radius: 25px;
-    color: var(--axul-marinho);
-    margin-bottom: 30px;
-    text-decoration: none;
-    font-size: 1.4rem;
+.nossos-planos__card__conteudo--botao a{
+
+        background-color: gold;
+
+        padding: 15px 25px ;
+        border-radius: 5px;
+        color: var(--axul-marinho);
+        margin-bottom: 30px;
+        text-decoration: none;
+        font-size: 1.4rem;
+        transition: .3s;
+}
+
+.nossos-planos__card__conteudo--botao a:hover{
+
+    box-shadow: 0px 0px 2px 1px rgb(255, 174, 0);
+    transition: .3s;
 }

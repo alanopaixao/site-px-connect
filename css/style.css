@@ -10,10 +10,10 @@
 }
 
 .cabecalho{
-    background-image: url("/img/banner1.png");
+    background-image: url("/img/banner3.png");
     min-height: 670px;
     
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;   
 }
