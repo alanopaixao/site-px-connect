@@ -1,0 +1,19 @@
+:root {
+    font-family: 'Roboto', sans-serif;
+
+    --laranja-escuro: #FF6800;
+    --laranja-claro: #FFC000;
+    --azul-marinho: #00193C;
+    --azul-bebe:#C8E1FF;
+    --cinza: #909E9E;
+    --branco: #fff;
+}
+
+.cabecalho{
+    background-image: url("/img/banner1.png");
+    min-height: 670px;
+    
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

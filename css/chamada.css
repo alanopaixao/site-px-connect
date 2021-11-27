@@ -1,0 +1,64 @@
+.chamada {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chamada__container {
+
+    height: calc(100vh - 100px);
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: unset;
+}
+
+.chamada__container__frase {
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+
+.chamada__container--texto p {
+    color: var(--azul-bebe);
+    font-size: 1.5rem;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, .5);
+    text-align: end;
+}
+
+.chamada__container--texto h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 10px 0;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, .5);
+    text-align: end;
+}
+
+
+.chamada__container--botao {
+    background: var(--branco);
+    border-radius: 25px;
+    padding: 10px 25px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.chamada__container--botao a {
+    color: var(--azul-marinho);
+    text-decoration: none;
+    text-transform: initial;
+    font-size: 0.9rem;
+}
+
+.chamada__container--botao a p:last-child{
+    font-weight: 900;
+    font-size: 1rem;
+}

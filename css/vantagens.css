@@ -1,0 +1,12 @@
+
+.vantagens__conheca{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.vantagens__conheca__itens{
+    height: 300px;
+    width: 300px;
+    box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.2);
+}
