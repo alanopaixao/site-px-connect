@@ -4,10 +4,17 @@
     margin: 5px;
 }
 
+.vantagens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .vantagens__texto{
   
     text-align: center;
     padding: 100px 0 50px;
+    background-image: linear-gradient(#efefef, #fff);
 }
 
 .vantagens__texto h1{
@@ -28,6 +35,13 @@
     width: auto;
     justify-content: space-around;
     align-items: stretch;
+}
+
+.vantagens__conheca--flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1440px;
 }
 
 .vantagens__conheca__card{

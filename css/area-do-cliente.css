@@ -2,10 +2,10 @@
     display: block;
     align-content: center;
     height: auto;
-
+    background: #efefef;
 }
 
-.area-do-cliente--titulo{
+.area-do-cliente--titulo {
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -40,7 +40,7 @@
     transition: .2s;
 }
 
-.area-do-cliente__cards__conteudo:hover{
+.area-do-cliente__cards__conteudo:hover {
     background: #005163;
     box-shadow: none;
     transition: .2s;
