@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"> 
     <title>PX Connect</title>
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -26,25 +26,43 @@
 <body>
 
     <header>
-
         <div class="cabecalho">
             <div class="menu">
                 <img src="/img/logo.svg" alt="" class="menu__logo">
                 <ul class="menu__lista">
                     <li class="menu__lista__item"><a href="#">planos</a></li>
-                    <li class="menu__lista__item"><a href="#">sobre nos</a></li>
+                    <li class="menu__lista__item"><a href="#">beneficios</a></li>
                     <li class="menu__lista__item"><a href="#">Atendimento</a></li>
                     <li class="menu__lista__item menu__lista__item--central"><a href="#">Central do assinante</a></li>
                 </ul>
             </div>
             <div class="chamada">
-                <div class="chamada__container chamada__container__algumacoisa">
-                    <div class="nossos-planos__card nossos-planos__card--4">
+                <div class="chamada__container chamada__container--plano-destaque">
+                    <div class="nossos-planos__card nossos-planos__card--3">
                         <div class="nossos-planos__card__conteudo">
-                            <a href="#">(Aqui contém o plano principal)</a>
-                        </div>
-                        <div class="nossos-planos__card__botao">
-                            <a href="#">Assine já</a>
+                            <div class="nossos-planos__card__conteudo--mega">
+                                <p>Internet Fibra</p>
+                                <!-- VELOCIDADE DO PLANO -->
+                                <h2>300 Mega</h2>
+                                <p>+Wi fi Plus</p>
+                            </div>
+                            <div class="nossos-planos__card__conteudo--mais-vendido">
+                                <img src="/img/selo-mais-vendido.svg" alt="">
+                            </div>
+                            <div class="nossos-planos__card__conteudo--instalacao">
+                                <p>instalação grátis</p>
+                                <p>no plano fidelidade</p>
+                            </div>
+                            <div class="nossos-planos__card__conteudo--valor">
+                                <p>R$</p>
+                                <p>89,90</p>
+                                <!-- VALOR DO PLANO -->
+                                <p>/mês</p>
+                            </div>
+                            <div
+                                class="nossos-planos__card__conteudo--botao nossos-planos__card__conteudo--botao-mais-vendido">
+                                <a href="#">Assine já</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -53,10 +71,6 @@
                         <p>conexão que aproxima pessoas</p>
                         <h1>internet 100% fibra optica</h1>
                     </div>
-                    <a class="chamada__container--botao" href="#">
-                        <p>conheça</p>
-                        <p>nossos planos</p>
-                    </a>
                 </div>
             </div>
         </div>
@@ -67,104 +81,110 @@
             <i class="fas fa-tachometer-alt"></i>
             <h1>conheça nossos planos</h1>
         </div>
-        <p class="nossos-planos__frase">Internet de alta velocidade que cabe no seu bolso!</p>
+        <p class="nossos-planos__frase">Internet de alta qualidade que cabe no seu bolso!</p>
 
         <section class="nossos-planos">
-            <div class="nossos-planos__card nossos-planos__card--1">
-                <div class="nossos-planos__card__conteudo">
-                    <div class="nossos-planos__card__conteudo--mega">
-                        <p>Internet Fibra</p>
-                        <!-- VELOCIDADE DO PLANO -->
-                        <h2>80 Mega</h2>
-                        <p>+Wi fi Plus</p>
-                    </div>
-                    <div class="nossos-planos__card__conteudo--instalacao">
-                        <p>instalação grátis</p>
-                        <p>no plano fidelidade</p>
-                    </div>
-                    <div class="nossos-planos__card__conteudo--valor">
-                        <p>R$</p>
-                        <!-- VALOR DO PLANO -->
-                        <p>69,90</p>
-                        <p>/mês</p>
-                    </div>
-                    <div class="nossos-planos__card__conteudo--botao">
-                        <a href="#">Assine já</a>
-                    </div>
-                </div>
-            </div>
-            <div class="nossos-planos__card nossos-planos__card--2">
+            <div class="nossos-planos--container">
 
-                <div class="nossos-planos__card__conteudo">
-                    <div class="nossos-planos__card__conteudo--mega">
-                        <p>Internet Fibra</p>
-                        <!-- VELOCIDADE DO PLANO -->
-                        <h2>200 Mega</h2>
-                        <p>+Wi fi Plus</p>
-                    </div>
-                    <div class="nossos-planos__card__conteudo--instalacao">
-                        <p>instalação grátis</p>
-                        <p>no plano fidelidade</p>
-                    </div>
-                    <div class="nossos-planos__card__conteudo--valor">
-                        <p>R$</p>
-                        <p>79,90</p>
-                        <!-- VALOR DO PLANO -->
-                        <p>/mês</p>
-                    </div>
-                    <div class="nossos-planos__card__conteudo--botao">
-                        <a href="#">Assine já</a>
-                    </div>
-                </div>
-            </div>
-            <div class="nossos-planos__card nossos-planos__card--3">
-                <div class="nossos-planos__card__conteudo">
-                    <div class="nossos-planos__card__conteudo--mega">
-                        <p>Internet Fibra</p>
-                        <!-- VELOCIDADE DO PLANO -->
-                        <h2>300 Mega</h2>
-                        <p>+Wi fi Plus</p>
-                    </div>
-                    <div class="nossos-planos__card__conteudo--mais-vendido">
-                        <img src="/img/selo-mais-vendido.svg" alt="">
-                    </div>
-                    <div class="nossos-planos__card__conteudo--instalacao">
-                        <p>instalação grátis</p>
-                        <p>no plano fidelidade</p>
-                    </div>
-                    <div class="nossos-planos__card__conteudo--valor">
-                        <p>R$</p>
-                        <p>89,90</p>
-                        <!-- VALOR DO PLANO -->
-                        <p>/mês</p>
-                    </div>
-                    <div class="nossos-planos__card__conteudo--botao nossos-planos__card__conteudo--botao-mais-vendido">
-                        <a href="#">Assine já</a>
+                <div class="nossos-planos__card nossos-planos__card--1">
+                    <div class="nossos-planos__card__conteudo">
+                        <div class="nossos-planos__card__conteudo--mega">
+                            <p>Internet Fibra</p>
+                            <!-- VELOCIDADE DO PLANO -->
+                            <h2>80 Mega</h2>
+                            <p>+Wi fi Plus</p>
+                        </div>
+                        <div class="nossos-planos__card__conteudo--instalacao">
+                            <p>instalação grátis</p>
+                            <p>no plano fidelidade</p>
+                        </div>
+                        <div class="nossos-planos__card__conteudo--valor">
+                            <p>R$</p>
+                            <!-- VALOR DO PLANO -->
+                            <p>69,90</p>
+                            <p>/mês</p>
+                        </div>
+                        <div class="nossos-planos__card__conteudo--botao">
+                            <a href="#">Assine já</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="nossos-planos__card nossos-planos__card--4">
-                <div class="nossos-planos__card__conteudo">
-                    <div class="nossos-planos__card__conteudo--mega">
-                        <p>Internet Fibra</p>
-                        <!-- VELOCIDADE DO PLANO -->
-                        <h2>400 Mega</h2>
-                        <p>+Wi fi Plus</p>
-                    </div>
-                    <div class="nossos-planos__card__conteudo--instalacao">
-                        <p>instalação grátis</p>
-                        <p>no plano fidelidade</p>
-                    </div>
-                    <div class="nossos-planos__card__conteudo--valor">
-                        <p>R$</p>
-                        <!-- VALOR DO PLANO -->
-                        <p>99,90</p>
-                        <p>/mês</p>
-                    </div>
-                    <div class="nossos-planos__card__conteudo--botao">
-                        <a href="#">Assine já</a>
+                <div class="nossos-planos__card nossos-planos__card--2">
+
+                    <div class="nossos-planos__card__conteudo">
+                        <div class="nossos-planos__card__conteudo--mega">
+                            <p>Internet Fibra</p>
+                            <!-- VELOCIDADE DO PLANO -->
+                            <h2>200 Mega</h2>
+                            <p>+Wi fi Plus</p>
+                        </div>
+                        <div class="nossos-planos__card__conteudo--instalacao">
+                            <p>instalação grátis</p>
+                            <p>no plano fidelidade</p>
+                        </div>
+                        <div class="nossos-planos__card__conteudo--valor">
+                            <p>R$</p>
+                            <p>79,90</p>
+                            <!-- VALOR DO PLANO -->
+                            <p>/mês</p>
+                        </div>
+                        <div class="nossos-planos__card__conteudo--botao">
+                            <a href="#">Assine já</a>
+                        </div>
                     </div>
                 </div>
+                <div class="nossos-planos__card nossos-planos__card--3">
+                    <div class="nossos-planos__card__conteudo">
+                        <div class="nossos-planos__card__conteudo--mega">
+                            <p>Internet Fibra</p>
+                            <!-- VELOCIDADE DO PLANO -->
+                            <h2>300 Mega</h2>
+                            <p>+Wi fi Plus</p>
+                        </div>
+                        <div class="nossos-planos__card__conteudo--mais-vendido">
+                            <img src="/img/selo-mais-vendido.svg" alt="">
+                        </div>
+                        <div class="nossos-planos__card__conteudo--instalacao">
+                            <p>instalação grátis</p>
+                            <p>no plano fidelidade</p>
+                        </div>
+                        <div class="nossos-planos__card__conteudo--valor">
+                            <p>R$</p>
+                            <p>89,90</p>
+                            <!-- VALOR DO PLANO -->
+                            <p>/mês</p>
+                        </div>
+                        <div
+                            class="nossos-planos__card__conteudo--botao nossos-planos__card__conteudo--botao-mais-vendido">
+                            <a href="#">Assine já</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nossos-planos__card nossos-planos__card--4">
+                    <div class="nossos-planos__card__conteudo">
+                        <div class="nossos-planos__card__conteudo--mega">
+                            <p>Internet Fibra</p>
+                            <!-- VELOCIDADE DO PLANO -->
+                            <h2>400 Mega</h2>
+                            <p>+Wi fi Plus</p>
+                        </div>
+                        <div class="nossos-planos__card__conteudo--instalacao">
+                            <p>instalação grátis</p>
+                            <p>no plano fidelidade</p>
+                        </div>
+                        <div class="nossos-planos__card__conteudo--valor">
+                            <p>R$</p>
+                            <!-- VALOR DO PLANO -->
+                            <p>99,90</p>
+                            <p>/mês</p>
+                        </div>
+                        <div class="nossos-planos__card__conteudo--botao">
+                            <a href="#">Assine já</a>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </section>
         <!-- área do cliente -->
@@ -203,7 +223,8 @@
                     <div class="vantagens__conheca__card">
                         <i class="fas fa-wifi"></i>
                         <h2>qualidade no sinal</h2>
-                        <p>Os links de internet da Ceanet Telecom são ideais para locais afastados ou que não possuem uma
+                        <p>Os links de internet da Ceanet Telecom são ideais para locais afastados ou que não possuem
+                            uma
                             cobertura de qualidade oferecida pelas operadoras convencionais.</p>
                     </div>
                     <div class="vantagens__conheca__card">
@@ -215,31 +236,41 @@
                     <div class="vantagens__conheca__card">
                         <i class="fas fa-rocket"></i>
                         <h2>suporte local qualificado</h2>
-                        <p>Garantimos satisfação de nossos clientes, disponibilizamos ferramentas de contato para garantir
+                        <p>Garantimos satisfação de nossos clientes, disponibilizamos ferramentas de contato para
+                            garantir
                             um atendimento rápido e fiel em qualquer situação.</p>
                     </div>
                 </div>
         </section>
         <section class="informacoes">
-            <div>
+            <div class="informacoes__container--logo">
                 <img src="/img/logo.svg" alt="" class="menu__logo menu__logo--footer">
             </div>
-            <div class="informacoes__endereco">
-                <h1>endereco</h1>
-                <p>Rua D, 360</p>
-                <p>Loteamento Novo - Ancuri</p>
-                <p>Itaitinga - CE</p>
-                <p>61880-000</p>
-
-            </div>
-            <div class="informacoes__contato">
-                <h1>contato</h1>
-                <p>85 98109 6361</p>
-            </div>
-            <div class="informacoes__redes-sociais">
-                <h1>Redes Sociais</h1>
-                <p>Instagram</p>
-                <p>Facebook</p>
+            <div class="informacoes__container">
+                <div class="informacoes__card">
+                    <h1>endereco</h1>
+                    <div class="informacoes__card__dados informacoes__card__dados--endereco">
+                        <p>Rua D, 360</p>
+                        <p>Loteamento Novo - Ancuri</p>
+                        <p>Itaitinga - CE</p>
+                        <p>61880-000</p>
+                    </div>
+                </div>
+                <div class="informacoes__card">
+                    <h1>contato</h1>
+                    <div class="informacoes__card__dados informacoes__card__dados--whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                        <p>85 98109 6361</p>
+                    </div>
+                </div>
+                <div class="informacoes__card informacoes__card--social">
+                    <a href="#" class="informacoes__card__dados informacoes__card__dados--instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="informacoes__card__dados informacoes__card__dados--facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
             </div>
         </section>
     </main>

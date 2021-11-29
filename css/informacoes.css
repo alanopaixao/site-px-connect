@@ -1,13 +1,86 @@
-.informacoes{
+.informacoes {
     background-image: linear-gradient(#0388A6, #005163);
     height: calc(95vh);
     color: cornsilk;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: center;
 }
 
+.informacoes__container {
+    max-width: 1440px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.informacoes__container--logo {
+    margin: 20px;
+}
 
+.informacoes__card {
+    padding: 20px;
+    width: 200px;
+}
 
-/* flex-grow: 1; */
+.informacoes__card h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.informacoes__card__dados--endereco {
+    font-size: 1.5rem;
+}
+
+.informacoes__card__dados--whatsapp {
+    display: flex;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+
+.fa-whatsapp {
+    font-size: 1.5rem;
+}
+
+.informacoes__card--social {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-instagram,
+.fa-facebook {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.5rem;
+    margin: 20px 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .informacoes {
+        flex-direction: column;
+    }
+
+    .informacoes__container {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .informacoes__container--logo img{
+        align-self: stretch;
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 375px){
+
+    .informacoes__container--logo img{
+        align-self: stretch;
+        height: 50px;
+        margin-bottom: 50px;
+    }
+}
+

@@ -74,3 +74,25 @@
 .area-do-cliente__cards__conteudo:hover {
     top: 10px;
 }
+
+@media screen and (max-width: 1024px) {
+    .area-do-cliente--titulo {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .area-do-cliente__cards__conteudo div p:nth-child(1) {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .fa-file-invoice,
+    .fa-user {
+        font-size: 3rem;
+    }
+
+
+
+}

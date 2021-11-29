@@ -1,3 +1,11 @@
+.nossos-planos--container{
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    flex-wrap: wrap;
+    margin: 80px 0;
+}
+
 .nossos-planos__titulo {
     display: flex;
     justify-content: center;
@@ -5,8 +13,12 @@
     text-align: center;
     text-transform: uppercase;
     font-size: 2.5rem;
-    padding: 50px 50px 0;
+    margin-top: 100px;
     gap: 10px;
+}
+
+.nossos-planos__titulo h1{
+    width: auto;
 }
 
 .nossos-planos__frase {
@@ -27,15 +39,14 @@
 
 
 .nossos-planos__card {
-    background-color: #fdfdfd;
-
+    background-color: #fbfbfb;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     height: 500px;
-    width: 270px;
+    width: 300px;
     border-radius: 5px;
-    margin: 100px 10px;
+    margin: 15px;
     box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
     transition: .5s;
 
@@ -92,17 +103,16 @@
 
 .nossos-planos__card__conteudo--mais-vendido {
     position: relative;
-    left: 30px;
-    bottom: 100px;
-    height: 1px;
+    align-content: flex-start;
+    width: 10px;
+    left: 200px;
+    bottom: 165px;
+    height: 0;
 }
 
 .nossos-planos__card__conteudo--mais-vendido img {
-    height: 100px;
-    position: relative;
-    left: 155px;
-    bottom: 61px;
-}
+    height: 120px;
+ }
 
 .nossos-planos__card__conteudo--instalacao {
     text-align: center;
@@ -181,4 +191,14 @@
 
     box-shadow: 0px 0px 2px 2px gold;
     transition: .3s;
+}
+
+@media screen and (max-width: 1024px){
+    .nossos-planos__card {
+        margin: 50px;
+    }
+
+    .nossos-planos__titulo{
+        flex-direction: column;
+    }
 }

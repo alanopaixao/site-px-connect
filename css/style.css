@@ -1,5 +1,5 @@
 :root {
-    font-family: 'Shentox', sans-serif;
+    font-family: 'CocoSharp', sans-serif;
 
     --laranja-escuro: #FF6800;
     --laranja-claro: #FFC000;
@@ -10,15 +10,14 @@
 }
 
 @font-face {
-    font-family: Shentox;
-    src: url(/fonts/EMT_Shentox/ShentoxTRIAL-Md.otf);
+    font-family: CocoSharp;
+    src: url(/fonts/Coco_Sharp/CocoSharpL-Regular.otf);
 }
 
-.cabecalho{
+header{
     background-image: url("/img/banner3.png");
-    min-height: 670px;
-    
-    background-position: bottom;
+    background-position: center right;
     background-repeat: no-repeat;
-    background-size: cover;   
+    background-size: cover;  
+    height: 100vh;
 }

@@ -60,21 +60,21 @@
     font-size: 1rem;
 }
 
-@media screen and (max-width: 1024px) {
-
-    .chamada__container--texto p {
-        font-size: 1.1rem;
-    }
-
+/* @media screen and (max-width: 1024px){
     .chamada__container--texto h1 {
-        font-size: 2rem;
-        text-align: center;
+        font-size: 3.4rem;
     }
+} */
 
-    /* temporario */
-    .chamada__container__algumacoisa{
+@media screen and (max-width: 844px){
+    .chamada__container--plano-destaque{
         display: none;
     }
-    /* temporario */
 }
 
+@media screen and (max-width: 844px) {
+    .chamada__container__frase {
+        justify-content: center;
+        margin: 0 20px;
+    }
+}
