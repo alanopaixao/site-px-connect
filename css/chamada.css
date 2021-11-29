@@ -23,7 +23,6 @@
     margin-right: 50px;
 }
 
-
 .chamada__container--texto p {
     color: var(--azul-bebe);
     font-size: 1.5rem;
@@ -47,17 +46,16 @@
     padding: 10px 25px;
     text-align: center;
     margin: 0 auto;
-
 }
 
-.chamada__container--botao a {
+.chamada__container--botao {
     color: var(--azul-marinho);
     text-decoration: none;
     text-transform: initial;
     font-size: 0.9rem;
 }
 
-.chamada__container--botao a p:last-child {
+.chamada__container--botao p:last-child {
     font-weight: 900;
     font-size: 1rem;
 }
@@ -70,7 +68,13 @@
 
     .chamada__container--texto h1 {
         font-size: 2rem;
+        text-align: center;
     }
 
+    /* temporario */
+    .chamada__container__algumacoisa{
+        display: none;
+    }
+    /* temporario */
 }
 

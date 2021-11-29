@@ -1,5 +1,5 @@
 .informacoes{
-    background-color: var(--azul-marinho);
+    background-image: linear-gradient(#0388A6, #005163);
     height: calc(95vh);
     color: cornsilk;
     display: flex;

@@ -1,5 +1,5 @@
 :root {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Shentox', sans-serif;
 
     --laranja-escuro: #FF6800;
     --laranja-claro: #FFC000;
@@ -7,6 +7,11 @@
     --azul-bebe:#C8E1FF;
     --cinza: #909E9E;
     --branco: #fff;
+}
+
+@font-face {
+    font-family: Shentox;
+    src: url(/fonts/EMT_Shentox/ShentoxTRIAL-Md.otf);
 }
 
 .cabecalho{

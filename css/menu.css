@@ -22,10 +22,16 @@
     margin-left: 30px;
     text-decoration: none;
     text-transform: uppercase;
+    transition: .1s;
 }
 
 .menu__lista__item--central{
     font-weight: 700;
+}
+
+.menu__lista__item--central a:hover{
+    color: gold;
+    transition: .2s;
 }
 
 @media screen and (max-width: 950px){

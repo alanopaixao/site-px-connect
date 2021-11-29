@@ -6,11 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PX Connect</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- font-awesome -->
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/menu.css">
@@ -26,7 +24,9 @@
 </head>
 
 <body>
+
     <header>
+
         <div class="cabecalho">
             <div class="menu">
                 <img src="/img/logo.svg" alt="" class="menu__logo">
@@ -38,7 +38,7 @@
                 </ul>
             </div>
             <div class="chamada">
-                <div class="chamada__container">
+                <div class="chamada__container chamada__container__algumacoisa">
                     <div class="nossos-planos__card nossos-planos__card--4">
                         <div class="nossos-planos__card__conteudo">
                             <a href="#">(Aqui contém o plano principal)</a>
@@ -51,30 +51,30 @@
                 <div class="chamada__container chamada__container__frase">
                     <div class="chamada__container--texto">
                         <p>conexão que aproxima pessoas</p>
-                        <h1>internet 100% fibra óptica</h1>
+                        <h1>internet 100% fibra optica</h1>
                     </div>
-                    <div class="chamada__container--botao">
-                        <a href="#">
-                            <p>conheça</p>
-                            <p>nossos planos</p>
-                        </a>
-                    </div>
+                    <a class="chamada__container--botao" href="#">
+                        <p>conheça</p>
+                        <p>nossos planos</p>
+                    </a>
                 </div>
             </div>
         </div>
     </header>
 
     <main>
-        <div class="titulo__nossos-planos">
+        <div class="nossos-planos__titulo">
+            <i class="fas fa-tachometer-alt"></i>
             <h1>conheça nossos planos</h1>
         </div>
-        <section class="nossos-planos">
+        <p class="nossos-planos__frase">Internet de alta velocidade que cabe no seu bolso!</p>
 
+        <section class="nossos-planos">
             <div class="nossos-planos__card nossos-planos__card--1">
                 <div class="nossos-planos__card__conteudo">
                     <div class="nossos-planos__card__conteudo--mega">
                         <p>Internet Fibra</p>
-                         <!-- VELOCIDADE DO PLANO -->
+                        <!-- VELOCIDADE DO PLANO -->
                         <h2>80 Mega</h2>
                         <p>+Wi fi Plus</p>
                     </div>
@@ -92,8 +92,6 @@
                         <a href="#">Assine já</a>
                     </div>
                 </div>
-
-
             </div>
             <div class="nossos-planos__card nossos-planos__card--2">
 
@@ -127,6 +125,9 @@
                         <h2>300 Mega</h2>
                         <p>+Wi fi Plus</p>
                     </div>
+                    <div class="nossos-planos__card__conteudo--mais-vendido">
+                        <img src="/img/selo-mais-vendido.svg" alt="">
+                    </div>
                     <div class="nossos-planos__card__conteudo--instalacao">
                         <p>instalação grátis</p>
                         <p>no plano fidelidade</p>
@@ -137,7 +138,7 @@
                         <!-- VALOR DO PLANO -->
                         <p>/mês</p>
                     </div>
-                    <div class="nossos-planos__card__conteudo--botao">
+                    <div class="nossos-planos__card__conteudo--botao nossos-planos__card__conteudo--botao-mais-vendido">
                         <a href="#">Assine já</a>
                     </div>
                 </div>
@@ -168,58 +169,58 @@
         </section>
         <!-- área do cliente -->
         <section class="area-do-cliente">
-            <h1>faça você mesmo</h1>
-            <div class="area-do-cliente__opcao">
-                <div class="area-do-cliente__opcao__container area-do-cliente__opcao__container--segunda-via">
-                    <a href="">Segunda via</a>
-                </div>
-
-                <div class="area-do-cliente__opcao__container area-do-cliente__opcao--central-assinante">
-                    <a href=""> central do assinante</a>
-                </div>
+            <div class="area-do-cliente--titulo">
+                <i class="fas fa-users-cog"></i>
+                <p class="">Faça Você mesmo</p>
+            </div>
+            <div class="area-do-cliente__cards">
+                <a href="#" class="area-do-cliente__cards__conteudo">
+                    <i class="fas fa-file-invoice"></i>
+                    <div>
+                        <p>Segunda via</p>
+                        <p>do boleto</p>
+                    </div>
+                    <i class="fas fa-caret-right"></i>
+                </a>
+                <a href="#" class="area-do-cliente__cards__conteudo">
+                    <i class="fas fa-user"></i>
+                    <div>
+                        <p>Central do</p>
+                        <p>assinante</p>
+                    </div>
+                    <i class="fas fa-caret-right"></i>
+                </a>
             </div>
         </section>
 
         <section class="vantagens">
             <div class="vantagens__texto">
-                <h1>conheca as vantagens</h1>
-                <p>de ter a px connect</p>
-                <p>em sua residência</p>
+                <h1>por que escolher a px connect?</h1>
+                <p>Escolher seu provedor de Internet nunca foi tão simples.</p>
             </div>
             <div class="vantagens__conheca">
-                <div class="vantagens__conheca__itens">
-                    <img src="" alt="">
-                    <a href="">atendimento humanizado</a>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book. </p>
+                <div class="vantagens__conheca__card">
+                    <i class="fas fa-wifi"></i>
+                    <h2>qualidade no sinal</h2>
+                    <p>Os links de internet da Ceanet Telecom são ideais para locais afastados ou que não possuem uma
+                        cobertura de qualidade oferecida pelas operadoras convencionais.</p>
                 </div>
-                <div class="vantagens__conheca__itens">
-                    <img src="" alt="">
-                    <a href="">100% fibra</a>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book. </p>
+                <div class="vantagens__conheca__card">
+                    <i class="fas fa-headset"></i>
+                    <h2>atendimento humanizado</h2>
+                    <p>Nossos profissionais são treinados e capacitados para a resolução de diversos problemas e
+                        situações adversas seja no escritório ou em sua casa.</p>
                 </div>
-                <div class="vantagens__conheca__itens">
-                    <img src="" alt="">
-                    <a href="">Entrega garantida</a>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book. </p>
+                <div class="vantagens__conheca__card">
+                    <i class="fas fa-rocket"></i>
+                    <h2>suporte local qualificado</h2>
+                    <p>Garantimos satisfação de nossos clientes, disponibilizamos ferramentas de contato para garantir
+                        um atendimento rápido e fiel em qualquer situação.</p>
                 </div>
-                <div class="vantagens__conheca__itens">
-                    <img src="" alt="">
-                    <a href="">suporte tecnico local</a>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book. </p>
-                </div>
-            </div>
         </section>
         <section class="informacoes">
             <div>
-                <img src="/img/logo.svg" alt="" class="menu__logo">
+                <img src="/img/logo.svg" alt="" class="menu__logo menu__logo--footer">
             </div>
             <div class="informacoes__endereco">
                 <h1>endereco</h1>
@@ -245,6 +246,7 @@
         <p>Todos os direitos reservados © 2021 PX Connect</p>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
 </body>
 
 </html>

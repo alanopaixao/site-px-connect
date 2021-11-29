@@ -1,30 +1,55 @@
 
-.vantagens__conheca{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.fa-thumbs-up{
+    font-size: 3rem;
+    margin: 5px;
 }
 
 .vantagens__texto{
-    text-align: end;
-    margin-top: 80px;
+  
+    text-align: center;
+    padding: 100px 0 50px;
 }
 
 .vantagens__texto h1{
-   font-size: 3rem;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    align-content: center;
+    font-weight: bold;
 }
 
-.vantagens__texto p:nth-child(1){
+.vantagens__texto p{
     font-size: 1rem;
+    color: gray;
 }
 
-.vantagens__texto p:nth-child(2){
-    font-size: 5rem;
+.vantagens__conheca{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: space-around;
+    align-items: stretch;
 }
 
-.vantagens__conheca__itens{
-    height: 300px;
-    width: 300px;
-    box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.2);
-    margin: 50px 10px;
+.vantagens__conheca__card{
+    color: #0388A6;
+    width: 380px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.vantagens__conheca__card h2{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+/* icones */
+.fa-wifi,
+.fa-headset,
+.fa-rocket {
+    height: 60px;
+    margin-bottom: 15px;
 }
